@@ -96,11 +96,25 @@
             <pose>3.03 8.33 0 0 0 0</pose>
         </include>
 
-        <!-- Table -->
+        <!-- Table Outside -->
         <include>
             <name>table_outside</name>
             <uri>file://isr-testbed/cafe_table</uri>
             <pose>-5.25 3.77 0 0 0 0</pose>
+        </include>
+       
+        <!-- Bag (Blue) - "Help me to carry" Task -->
+        <include>
+            <name>bag_blue</name>
+            <uri>file://isr-testbed/bag_blue</uri>
+            <pose>-5.27 4.06 0.49 1.57 0 -1.59</pose>
+        </include>
+
+        <!-- Bag (Orange) - "Help me to carry" Task -->
+        <include>
+            <name>bag_orange</name>
+            <uri>file://isr-testbed/bag_orange</uri>
+            <pose>-4.87 4.06 0.49 1.57 0 -1.59</pose>
         </include>
 
         <!-- Fire Hydrant 1 -->
@@ -200,6 +214,12 @@
             <uri>file://isr-testbed/shelf</uri>
             <pose>-2.85 1.0 0 0 0 1.56</pose>
         </include>
+
+        <!-- Cupboard_door >
+        <include>
+            <uri>file://isr-testbed/cupboard_door</uri>
+            <pose>-2.05 0.5 0 0 0 0</pose>
+        </include-->
 
         <!-- Lamp ikea larstid -->
         <include>
@@ -326,7 +346,7 @@
         <include>
             <uri>file://isr-testbed/tv_chair</uri>
             <name>chair1</name>
-            <pose>-0.73 -2.05 0 0 0 -1.57</pose>
+            <pose>-0.71 -2.15 0 0 0 -1.63</pose>
         </include>
 
         <!-- TV chair 2 -->

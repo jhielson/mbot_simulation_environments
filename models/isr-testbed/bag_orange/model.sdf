@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='bag'>
+    <link name='link_0'>
+      <pose frame=''>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose frame=''>0.05 0.05 0.11 0 0 0</pose>
+        <mass>0.269</mass>
+        <inertia>
+          <ixx>0.002</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.002</iyy>
+          <iyz>0</iyz>
+          <izz>0.00075</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>file://isr-testbed/bag_orange/bag_no_colour.dae</uri>
+            <scale>0.0015 0.0015 0.0015</scale>
+          </mesh>
+        </geometry>
+        <material>
+	  <script>
+	    <uri>file://media/materials/scripts/gazebo.material</uri>
+	    <name>Gazebo/Orange</name>
+	  </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>file://isr-testbed/bag_orange/bag_no_colour.dae</uri>
+            <scale>0.0015 0.0015 0.0015</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
